@@ -1,0 +1,34 @@
+<!-- A first look at column and row span in tables -->
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>Table span</title>
+	</head>
+	<body>
+		<h1>Scheduled Activities For The Week</h1>
+		<table border="3">
+			<caption><p>My programming language schedule</p></caption>
+			<tr>
+				<th></th>
+				<th>Monday</th>
+				<th>Tuesday</th>
+				<th>Wednesday</th>
+				<th>Thursday</th>
+				<th>Friday</th>
+				<th>Saturday</th>
+				<th>Sunday</th>
+			</tr>
+			<tr>
+				<th>Day Session</th>
+				<td colspan="5">HTML & CSS</td>
+				<td rowspan="2">BASH</td>
+				<td rowspan="2">markdown</td>
+			</tr>
+			<tr>
+				<th>Night Session</th>
+				<td colspan="5">Python</td>
+			</tr>
+		</table>
+	</body>
+</html>
