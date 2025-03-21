@@ -2,7 +2,8 @@
 
 ## Website 1.0:
 ---
-**21/03/25**
+`**21/03/25**`
+
 This is a project intended to help make me more conversant with **html**, and **CSS**. The 
 main objective is competence in web development and *frontend*. 
 
